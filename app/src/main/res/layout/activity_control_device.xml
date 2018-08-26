@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize" android:id="@+id/toolbar" android:background="@color/backColor"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <ListView
+        android:layout_width="wrap_content" android:id="@+id/commonListView"  android:divider="@color/buttonColor" android:dividerHeight="1dip"
+        android:layout_height="wrap_content" android:layout_below="@id/toolbar" />
+
+    <include layout="@layout/device_setting" />
+
+    <include layout="@layout/admin_panel" />
+
+    <android.support.design.widget.CoordinatorLayout android:layout_width="match_parent" android:layout_height="match_parent">
+
+        <android.support.design.widget.BottomNavigationView
+            android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/bottomNavigation_id"
+            android:background="?android:attr/windowBackground" app:menu="@menu/navigation_menu" android:layout_gravity="bottom"
+            app:theme="@style/BottomNavigationTheme" app:itemBackground="@color/colorBottomNavigationBack" app:itemTextColor="@color/textColor" app:itemIconTint="@color/textColor" />
+    </android.support.design.widget.CoordinatorLayout>
+</RelativeLayout>

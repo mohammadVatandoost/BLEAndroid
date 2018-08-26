@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="70%" android:id="@+id/battery_id" android:icon="@drawable/battery_70" app:showAsAction="always|withText" />
+    <item android:title="60%" android:id="@+id/sd_id" android:icon="@drawable/sd" app:showAsAction="always|withText"  />
+</menu>

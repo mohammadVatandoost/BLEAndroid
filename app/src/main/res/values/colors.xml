@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#29B6F6</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="backColor">#212121</color>
+    <color name="buttonColor">#29B6F6</color>
+    <color name="textColor">#ffffff</color>
+    <color name="underLineColor">#757575</color>
+    <color name="scanBackColor">#424242</color>
+    <color name="colorBottomNavigationActive">#29B6F6</color>
+    <color name="colorBottomNavigationBack">#212121</color>
+    <color name="colorBottomNavigationText">#757575</color>
+</resources>

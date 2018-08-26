@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Shenova</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="login">Login</string>
+    <string name="VoicesTitleFragment">Voices</string>
+    <string name="DeviceSettingTitleFragment">Device Setting</string>
+    <string name="AdminPanelFragment">Admin Panel</string>
+    <string name="setting">setting</string>
+    <string name="voices">voices</string>
+    <string name="admin">admin</string>
+    <string-array name="voiceRates">
+        <item>8kbps</item>
+        <item>16kbps</item>
+        <item>22kbps</item>
+        <item>44kbps</item>
+    </string-array>
+    <string-array name="recordingMode">
+        <item>mono</item>
+        <item>sterio</item>
+    </string-array>
+    <string-array name="appLanguage">
+        <item>فارسی</item>
+        <item>English</item>
+    </string-array>
+    <string-array name="ledMode">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+    </string-array>
+</resources>
